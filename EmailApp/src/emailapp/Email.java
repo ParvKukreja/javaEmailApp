@@ -60,7 +60,7 @@ public class Email {
 
 	private String setDepartment() {
 		System.out.print("Enter the department code\n1 for Sales\n2 for development\n3 for accounting\n0 for none");
-		System.out.println("enter value: ");
+		System.out.println("enter value: i made a change here");
 		Scanner sc = new Scanner(System.in);
 		int depChoice = sc.nextInt();
 		
